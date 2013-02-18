@@ -1,7 +1,7 @@
 class nodejs::0-8 {
   require nvm
 
-  $version = '0.8.8'
+  $version = '0.8.20'
 
   nodejs { $version:
     ensure => installed
